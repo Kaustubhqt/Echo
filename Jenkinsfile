@@ -9,7 +9,7 @@ git url : 'https://github.com/Kaustubhqt/Echo',branch:'main'
 
 stage('2.Build Image'){
 steps{
-bat 'docker build -t Mywebsite .'
+bat 'docker build -t myWebsite .'
 }
 }
 stage('3.Stop/Remove old Containers'){
